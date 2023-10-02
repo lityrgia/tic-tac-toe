@@ -1,0 +1,22 @@
+@import "reset.scss";
+
+.app {
+    max-width: 500px;
+    height: 500px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    &-cell {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        cursor: pointer;
+        width: 33%;
+        height: 33%;
+        border: 1px solid #000;
+    }
+}
